@@ -17,6 +17,30 @@
     </Item>
     <Item class="Part" referent="">
       <Properties>
+        <string name="Name">GuaranteedBaseplate</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;420&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;420&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;-3&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1012</int>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="">
+      <Properties>
+        <string name="Name">WealthFrontierSpawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <bool name="Neutral">true</bool>
+        <float name="Transparency">0</float>
+        <int name="BrickColor">194</int>
+        <Vector3 name="Size">&lt;X&gt;12&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;12&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <bool name="Enabled">true</bool>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
         <string name="Name">North-South Main Road</string>
         <bool name="Anchored">true</bool>
         <bool name="CanCollide">true</bool>
