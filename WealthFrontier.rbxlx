@@ -643,7 +643,6 @@ return table.freeze(MarketConfig)
       <float name="ClockTime">18</float>
     </Properties>
   </Item>
-  <Item class="Terrain" referent="RBX_TERRAIN" />
   <Item class="ServerScriptService" referent="RBX_SSS">
     <Item class="Script" referent="">
       <Properties>
