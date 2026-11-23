@@ -1,0 +1,1379 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Workspace" referent="RBX_WORKSPACE">
+    <Properties>
+      <string name="Name">WealthFrontier</string>
+    </Properties>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Ground</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;400&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;400&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;-1&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1012</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">North-South Main Road</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;26&lt;/X&gt;&lt;Y&gt;0.5&lt;/Y&gt;&lt;Z&gt;400&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;0.25&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">199</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">West-East Main Road</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;400&lt;/X&gt;&lt;Y&gt;0.5&lt;/Y&gt;&lt;Z&gt;26&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;0.25&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">199</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">OldHouseBase</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;40&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;36&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;0.5&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">327</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">OldHouseWalls</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;40&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;2&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;-162&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">217</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">OldHouseBackWall</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;40&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;2&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;-128&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">217</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">OldHouseSideA</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;2&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;32&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-170&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">217</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">OldHouseSideB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;2&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;32&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-130&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">217</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">OldHouseRoof</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;48&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;44&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;19&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">26</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">OldHouseFrontDoor</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;8&lt;/X&gt;&lt;Y&gt;12&lt;/Y&gt;&lt;Z&gt;1&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;6&lt;/Y&gt;&lt;Z&gt;-127&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">194</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">OldComputerDesk</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;16&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;7&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;3&lt;/Y&gt;&lt;Z&gt;-138&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">199</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">OldComputer</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;12&lt;/X&gt;&lt;Y&gt;8&lt;/Y&gt;&lt;Z&gt;2&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;-138&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">26</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">ExchangeBuilding</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;75&lt;/X&gt;&lt;Y&gt;38&lt;/Y&gt;&lt;Z&gt;55&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;19&lt;/Y&gt;&lt;Z&gt;75&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">199</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">ExchangeAtrium</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;65&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;45&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;75&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1001</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">ExchangeScreen</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;45&lt;/X&gt;&lt;Y&gt;12&lt;/Y&gt;&lt;Z&gt;1&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;102&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1032</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">ExchangeDesk</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;5&lt;/Y&gt;&lt;Z&gt;8&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;3&lt;/Y&gt;&lt;Z&gt;82&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">192</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">ExchangeTowerA</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;12&lt;/X&gt;&lt;Y&gt;72&lt;/Y&gt;&lt;Z&gt;12&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-28&lt;/X&gt;&lt;Y&gt;36&lt;/Y&gt;&lt;Z&gt;72&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1032</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">ExchangeTowerB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;12&lt;/X&gt;&lt;Y&gt;72&lt;/Y&gt;&lt;Z&gt;12&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;36&lt;/Y&gt;&lt;Z&gt;72&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1032</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">BankBuilding</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;58&lt;/X&gt;&lt;Y&gt;30&lt;/Y&gt;&lt;Z&gt;48&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-100&lt;/X&gt;&lt;Y&gt;15&lt;/Y&gt;&lt;Z&gt;78&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1001</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">BankDesk</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;30&lt;/X&gt;&lt;Y&gt;5&lt;/Y&gt;&lt;Z&gt;7&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-100&lt;/X&gt;&lt;Y&gt;3&lt;/Y&gt;&lt;Z&gt;56&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">194</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">BankVault</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;18&lt;/X&gt;&lt;Y&gt;16&lt;/Y&gt;&lt;Z&gt;8&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-100&lt;/X&gt;&lt;Y&gt;8&lt;/Y&gt;&lt;Z&gt;99&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">26</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">CasinoBuilding</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;66&lt;/X&gt;&lt;Y&gt;24&lt;/Y&gt;&lt;Z&gt;50&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;100&lt;/X&gt;&lt;Y&gt;12&lt;/Y&gt;&lt;Z&gt;82&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">217</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">CasinoSign</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;44&lt;/X&gt;&lt;Y&gt;6&lt;/Y&gt;&lt;Z&gt;2&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;100&lt;/X&gt;&lt;Y&gt;20&lt;/Y&gt;&lt;Z&gt;108&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">CasinoTable</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;18&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;18&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;100&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;82&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">194</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">FashionStore</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;48&lt;/X&gt;&lt;Y&gt;22&lt;/Y&gt;&lt;Z&gt;42&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;125&lt;/X&gt;&lt;Y&gt;11&lt;/Y&gt;&lt;Z&gt;-70&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">FashionRackA</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;8&lt;/X&gt;&lt;Y&gt;7&lt;/Y&gt;&lt;Z&gt;20&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;112&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;-70&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1032</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">FashionRackB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;8&lt;/X&gt;&lt;Y&gt;7&lt;/Y&gt;&lt;Z&gt;20&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;138&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;-70&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1032</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">CarDealer</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;70&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;50&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;100&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">199</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">CarPlatformA</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;24&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;12&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;72&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1001</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">CarPlatformB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;24&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;12&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;112&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1001</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Residence_-95_-75</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;45&lt;/X&gt;&lt;Y&gt;28&lt;/Y&gt;&lt;Z&gt;38&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-95&lt;/X&gt;&lt;Y&gt;14.0&lt;/Y&gt;&lt;Z&gt;-75&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1001</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Residence_-38_-75</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;45&lt;/X&gt;&lt;Y&gt;28&lt;/Y&gt;&lt;Z&gt;38&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-38&lt;/X&gt;&lt;Y&gt;14.0&lt;/Y&gt;&lt;Z&gt;-75&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1001</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Residence_45_-75</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;45&lt;/X&gt;&lt;Y&gt;28&lt;/Y&gt;&lt;Z&gt;38&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;45&lt;/X&gt;&lt;Y&gt;14.0&lt;/Y&gt;&lt;Z&gt;-75&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1001</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Residence_-95_-160</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;55&lt;/X&gt;&lt;Y&gt;34&lt;/Y&gt;&lt;Z&gt;44&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-95&lt;/X&gt;&lt;Y&gt;17.0&lt;/Y&gt;&lt;Z&gt;-160&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1001</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Residence_0_-160</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;55&lt;/X&gt;&lt;Y&gt;34&lt;/Y&gt;&lt;Z&gt;44&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;17.0&lt;/Y&gt;&lt;Z&gt;-160&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1001</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">PenthouseTower</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;62&lt;/X&gt;&lt;Y&gt;90&lt;/Y&gt;&lt;Z&gt;62&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;155&lt;/X&gt;&lt;Y&gt;45&lt;/Y&gt;&lt;Z&gt;10&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1032</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">MansionBase</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;75&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;55&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;145&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;155&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1001</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">MansionBuilding</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;58&lt;/X&gt;&lt;Y&gt;34&lt;/Y&gt;&lt;Z&gt;40&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;145&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;155&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1001</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">MansionPool</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;30&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;18&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;145&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;180&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">91</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">QuestBoard</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;12&lt;/X&gt;&lt;Y&gt;8&lt;/Y&gt;&lt;Z&gt;2&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-50&lt;/X&gt;&lt;Y&gt;5&lt;/Y&gt;&lt;Z&gt;110&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">194</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">CryptoMine</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;40&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;38&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-145&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;135&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">199</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">CryptoRackA</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;8&lt;/X&gt;&lt;Y&gt;12&lt;/Y&gt;&lt;Z&gt;8&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-155&lt;/X&gt;&lt;Y&gt;7&lt;/Y&gt;&lt;Z&gt;135&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">CryptoRackB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;8&lt;/X&gt;&lt;Y&gt;12&lt;/Y&gt;&lt;Z&gt;8&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-135&lt;/X&gt;&lt;Y&gt;7&lt;/Y&gt;&lt;Z&gt;135&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">AlleyEntrance</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;8&lt;/X&gt;&lt;Y&gt;16&lt;/Y&gt;&lt;Z&gt;26&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-125&lt;/X&gt;&lt;Y&gt;8&lt;/Y&gt;&lt;Z&gt;25&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">26</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">AlleySafeSign</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;6&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;2&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-125&lt;/X&gt;&lt;Y&gt;10&lt;/Y&gt;&lt;Z&gt;38&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Marker_Old_Starter_District</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0.8</float>
+        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;24&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Marker_Central_Exchange</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0.8</float>
+        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;24&lt;/Y&gt;&lt;Z&gt;75&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Marker_Bank_and_Vault</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0.8</float>
+        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-100&lt;/X&gt;&lt;Y&gt;22&lt;/Y&gt;&lt;Z&gt;78&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Marker_Casino_Quarter</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0.8</float>
+        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;100&lt;/X&gt;&lt;Y&gt;20&lt;/Y&gt;&lt;Z&gt;82&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Marker_Fashion_and_Car_District</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0.8</float>
+        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;125&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;-100&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Marker_Luxury_District</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0.8</float>
+        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;145&lt;/X&gt;&lt;Y&gt;28&lt;/Y&gt;&lt;Z&gt;155&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">Marker_Crypto_and_Quest_District</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0.8</float>
+        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;-145&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;135&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
+      </Properties>
+    </Item>
+    <Item class="Folder" referent="RBX_NPCS">
+      <Properties>
+        <string name="Name">NPCs</string>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="ReplicatedStorage" referent="RBX_REPLICATED">
+    <Item class="Folder" referent="">
+      <Properties>
+        <string name="Name">Modules</string>
+      </Properties>
+      <Item class="ModuleScript" referent="">
+        <Properties>
+          <string name="Name">MarketConfig</string>
+          <ProtectedString name="Source">local MarketConfig = {}
+
+MarketConfig.CashName = "Credits"
+MarketConfig.StartingCash = 25_000
+MarketConfig.TradeCommission = 0.0025
+MarketConfig.CashoutCommission = 0.05
+MarketConfig.OfflineDividendCapDays = 7
+MarketConfig.MaxOrdersPerMinute = 12
+MarketConfig.MaxCasinoLossPerDay = 2_000
+
+MarketConfig.Assets = {
+	NEO = { name = "Neo Systems", sector = "Technology", basePrice = 120, volatility = 0.018, dividendRate = 0.0006 },
+	SKY = { name = "Skyline Energy", sector = "Energy", basePrice = 88, volatility = 0.025, dividendRate = 0.0009 },
+	HOME = { name = "Horizon Homes", sector = "Real Estate", basePrice = 160, volatility = 0.012, dividendRate = 0.0011 },
+	MOVE = { name = "Metro Motors", sector = "Transport", basePrice = 72, volatility = 0.021, dividendRate = 0.0005 },
+	GOLD = { name = "Red Gold Union", sector = "Metals", basePrice = 210, volatility = 0.014, dividendRate = 0.0004 },
+	MED = { name = "Nova Health", sector = "Healthcare", basePrice = 145, volatility = 0.016, dividendRate = 0.0007 },
+	FOOD = { name = "Green Fork", sector = "Consumer", basePrice = 54, volatility = 0.02, dividendRate = 0.0008 },
+	BIT = { name = "Bit Harbor", sector = "Crypto", basePrice = 305, volatility = 0.045, dividendRate = 0.0002 },
+}
+
+MarketConfig.Outfits = {
+	{ id = "street_basic", name = "Basic Streetwear", price = 0 },
+	{ id = "office_suit", name = "Silver Office Suit", price = 8_000 },
+	{ id = "nightwear", name = "Midnight Jacket", price = 24_000 },
+	{ id = "luxury_gold", name = "Gold Executive Look", price = 120_000 },
+}
+
+MarketConfig.Cars = {
+	{ id = "old_sedan", name = "Old Sedan", price = 12_000 },
+	{ id = "city_coupe", name = "City Coupe", price = 55_000 },
+	{ id = "electric_gt", name = "Electric GT", price = 240_000 },
+}
+
+MarketConfig.Properties = {
+	{ id = "old_room", name = "Old Room", price = 0, income = 0 },
+	{ id = "city_apartment", name = "City Apartment", price = 90_000, income = 280 },
+	{ id = "penthouse", name = "Downtown Penthouse", price = 600_000, income = 1_800 },
+	{ id = "mansion", name = "Lakeside Mansion", price = 2_500_000, income = 7_500 },
+}
+
+return table.freeze(MarketConfig)
+</ProtectedString>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+  <Item class="Lighting" referent="RBX_LIGHTING">
+    <Properties>
+      <float name="Brightness">2</float>
+      <float name="ClockTime">18</float>
+    </Properties>
+  </Item>
+  <Item class="Terrain" referent="RBX_TERRAIN" />
+  <Item class="ServerScriptService" referent="RBX_SSS">
+    <Item class="Script" referent="">
+      <Properties>
+        <string name="Name">EconomyManager</string>
+        <bool name="Enabled">true</bool>
+        <ProtectedString name="Source">local Players = game:GetService("Players")
+local DataStoreService = game:GetService("DataStoreService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
+
+local Config = require(ReplicatedStorage.Modules.MarketConfig)
+local profileStore = DataStoreService:GetDataStore("WealthFrontierProfilesV1")
+local leaderboardStore = DataStoreService:GetOrderedDataStore("WealthFrontierNetWorthV1")
+
+local Remote = ReplicatedStorage:FindFirstChild("EconomyRemote") or Instance.new("RemoteFunction")
+Remote.Name = "EconomyRemote"
+Remote.Parent = ReplicatedStorage
+
+local profiles = {}
+local marketPrices = {}
+local candles = {}
+
+for symbol, asset in pairs(Config.Assets) do
+	marketPrices[symbol] = asset.basePrice
+	candles[symbol] = {}
+end
+
+local defaultProfile = function()
+	local holdings = {}
+	for symbol in pairs(Config.Assets) do
+		holdings[symbol] = 0
+	end
+
+	return {
+		cash = Config.StartingCash,
+		holdings = holdings,
+		outfit = "street_basic",
+		car = "old_sedan",
+		property = "old_room",
+		ownedOutfits = { street_basic = true },
+		ownedCars = { old_sedan = true },
+		ownedProperties = { old_room = true },
+		lastSaveUnix = os.time(),
+		lastDividendUnix = os.time(),
+		lastCasinoUnix = 0,
+		casinoLossToday = 0,
+		quests = {},
+		clan = nil,
+		tradeHistory = {},
+	}
+end
+
+local function deepCopy(value)
+	if type(value) ~= "table" then
+		return value
+	end
+	local copy = {}
+	for key, child in pairs(value) do
+		copy[key] = deepCopy(child)
+	end
+	return copy
+end
+
+local function sanitizeProfile(profile)
+	local clean = defaultProfile()
+	for key, value in pairs(profile or {}) do
+		clean[key] = deepCopy(value)
+	end
+	clean.cash = math.clamp(tonumber(clean.cash) or Config.StartingCash, 0, 1e12)
+	clean.holdings = clean.holdings or {}
+	clean.ownedOutfits = clean.ownedOutfits or { street_basic = true }
+	clean.ownedCars = clean.ownedCars or { old_sedan = true }
+	clean.ownedProperties = clean.ownedProperties or { old_room = true }
+	clean.tradeHistory = clean.tradeHistory or {}
+	clean.lastDividendUnix = tonumber(clean.lastDividendUnix) or os.time()
+	return clean
+end
+
+local function netWorth(profile)
+	local worth = profile.cash
+	for symbol, quantity in pairs(profile.holdings) do
+		worth += quantity * (marketPrices[symbol] or Config.Assets[symbol].basePrice)
+	end
+	return math.floor(worth)
+end
+
+local function saveProfile(player)
+	local profile = profiles[player.UserId]
+	if not profile then
+		return
+	end
+	profile.lastSaveUnix = os.time()
+	profileStore:UpdateAsync(tostring(player.UserId), function(old)
+		return sanitizeProfile(profile)
+	end)
+	leaderboardStore:SetAsync(tostring(player.UserId), netWorth(profile))
+end
+
+local function loadProfile(player)
+	local success, stored = pcall(profileStore.UpdateAsync, profileStore, tostring(player.UserId), function(old)
+		return old or nil
+	end)
+	if not success then
+		stored = nil
+	end
+
+	local profile = sanitizeProfile(stored)
+	profiles[player.UserId] = profile
+
+	local elapsedSeconds = math.max(0, os.time() - profile.lastDividendUnix)
+	local elapsedDays = math.min(Config.OfflineDividendCapDays, elapsedSeconds / 86400)
+	local dividend = 0
+	for symbol, quantity in pairs(profile.holdings) do
+		local asset = Config.Assets[symbol]
+		dividend += quantity * asset.basePrice * asset.dividendRate * elapsedDays
+	end
+	if dividend &gt; 0 then
+		profile.cash += math.floor(dividend)
+	end
+	profile.lastDividendUnix = os.time()
+
+	local leaderstats = Instance.new("Folder")
+	leaderstats.Name = "leaderstats"
+	leaderstats.Parent = player
+
+	local cash = Instance.new("IntValue")
+	cash.Name = "Credits"
+	cash.Value = profile.cash
+	cash.Parent = leaderstats
+
+	local worth = Instance.new("IntValue")
+	worth.Name = "NetWorth"
+	worth.Value = netWorth(profile)
+	worth.Parent = leaderstats
+end
+
+Players.PlayerAdded:Connect(loadProfile)
+Players.PlayerRemoving:Connect(function(player)
+	saveProfile(player)
+	profiles[player.UserId] = nil
+end)
+
+for _, player in ipairs(Players:GetPlayers()) do
+	task.spawn(loadProfile, player)
+end
+
+game:BindToClose(function()
+	for _, player in ipairs(Players:GetPlayers()) do
+		saveProfile(player)
+	end
+end)
+
+task.spawn(function()
+	while true do
+		task.wait(15)
+		for symbol, asset in pairs(Config.Assets) do
+			local change = (math.random() * 2 - 1) * asset.volatility
+			local nextPrice = marketPrices[symbol] * (1 + change)
+			marketPrices[symbol] = math.max(1, math.floor(nextPrice * 100) / 100)
+		end
+		for _, player in ipairs(Players:GetPlayers()) do
+			local profile = profiles[player.UserId]
+			if profile then
+				local leaderstats = player:FindFirstChild("leaderstats")
+				if leaderstats then
+					leaderstats.Credits.Value = profile.cash
+					leaderstats.NetWorth.Value = netWorth(profile)
+				end
+				leaderboardStore:SetAsync(tostring(player.UserId), netWorth(profile))
+			end
+		end
+	end
+end)
+
+task.spawn(function()
+	while true do
+		task.wait(60)
+		for _, player in ipairs(Players:GetPlayers()) do
+			local profile = profiles[player.UserId]
+			if not profile then
+				continue
+			end
+			for _, item in ipairs(Config.Properties) do
+				if profile.property == item.id then
+					profile.cash += item.income
+					break
+				end
+			end
+		end
+	end
+end)
+
+local function getProfile(player)
+	return profiles[player.UserId]
+end
+
+local function trade(player, symbol, quantity, sell)
+	local profile = getProfile(player)
+	local asset = Config.Assets[symbol]
+	if not profile or not asset or type(quantity) ~= "number" then
+		return false, "Invalid trade"
+	end
+	quantity = math.floor(quantity)
+	if quantity &lt; 1 or quantity &gt; 100_000 then
+		return false, "Invalid quantity"
+	end
+
+	local price = marketPrices[symbol]
+	local cost = math.floor(price * quantity * (1 + Config.TradeCommission))
+	if sell then
+		local held = profile.holdings[symbol] or 0
+		if held &lt; quantity then
+			return false, "Not enough assets"
+		end
+		profile.holdings[symbol] -= quantity
+		local proceeds = math.floor(price * quantity * (1 - Config.TradeCommission))
+		profile.cash += proceeds
+	else
+		if profile.cash &lt; cost then
+			return false, "Not enough credits"
+		end
+		profile.cash -= cost
+		profile.holdings[symbol] = (profile.holdings[symbol] or 0) + quantity
+	end
+
+	table.insert(profile.tradeHistory, 1, {
+		symbol = symbol,
+		quantity = quantity,
+		price = price,
+		sell = sell,
+		unix = os.time(),
+	})
+	table.remove(profile.tradeHistory, 21)
+	saveProfile(player)
+	return true, sell and "Asset sold" or "Asset bought"
+end
+
+local function purchase(player, category, id)
+	local profile = getProfile(player)
+	if not profile then
+		return false, "Profile unavailable"
+	end
+
+	local catalog
+	if category == "outfit" then
+		catalog = Config.Outfits
+	elseif category == "car" then
+		catalog = Config.Cars
+	elseif category == "property" then
+		catalog = Config.Properties
+	else
+		return false, "Invalid category"
+	end
+
+	for _, item in ipairs(catalog) do
+		if item.id == id then
+			if category == "outfit" and profile.ownedOutfits[id] then
+				profile.outfit = id
+				return true, "Outfit equipped"
+			end
+			if category == "car" and profile.ownedCars[id] then
+				return true, "Vehicle equipped"
+			end
+			if category == "property" and profile.ownedProperties[id] then
+				profile.property = id
+				return true, "Property moved"
+			end
+			if profile.cash &lt; item.price then
+				return false, "Not enough credits"
+			end
+			profile.cash -= item.price
+			if category == "outfit" then
+				profile.ownedOutfits[id] = true
+				profile.outfit = id
+			elseif category == "car" then
+				profile.ownedCars[id] = true
+				profile.car = id
+			else
+				profile.ownedProperties[id] = true
+				profile.property = id
+			end
+			saveProfile(player)
+			return true, "Purchase complete"
+		end
+	end
+	return false, "Catalog item missing"
+end
+
+Remote.OnServerInvoke = function(player, action, ...)
+	local args = table.pack(...)
+	if action == "snapshot" then
+		local profile = getProfile(player)
+		if not profile then
+			return nil
+		end
+		return {
+			cash = profile.cash,
+			netWorth = netWorth(profile),
+			holdings = profile.holdings,
+			prices = marketPrices,
+			history = profile.tradeHistory,
+			outfit = profile.outfit,
+			car = profile.car,
+			property = profile.property,
+			quests = profile.quests,
+		}
+	elseif action == "trade" then
+		return trade(player, args[1], args[2], args[3] == true)
+	elseif action == "purchase" then
+		return purchase(player, args[1], args[2])
+	elseif action == "casino" then
+		local profile = getProfile(player)
+		local bet = math.floor(tonumber(args[1]) or 0)
+		if not profile or bet &lt; 1 or bet &gt; 5_000 then
+			return false, "Invalid bet"
+		end
+		if os.time() - profile.lastCasinoUnix &gt;= 86400 then
+			profile.lastCasinoUnix = os.time()
+			profile.casinoLossToday = 0
+		end
+		if profile.casinoLossToday &gt;= Config.MaxCasinoLossPerDay then
+			return false, "Daily loss limit reached"
+		end
+		if profile.cash &lt; bet then
+			return false, "Not enough credits"
+		end
+		local win = math.random() &lt; 0.46
+		if win then
+			local winnings = bet * 2
+			profile.cash += winnings - bet
+			saveProfile(player)
+			return true, "Win", winnings
+		end
+		profile.cash -= bet
+		profile.casinoLossToday += bet
+		saveProfile(player)
+		return true, "Lose", bet
+	elseif action == "loan" then
+		local profile = getProfile(player)
+		if not profile then
+			return false, "Profile unavailable"
+		end
+		if profile.quests.loanTaken then
+			return false, "One active loan is already allowed"
+		end
+		local amount = 10_000
+		profile.cash += amount
+		profile.quests.loanTaken = true
+		saveProfile(player)
+		return true, "Loan approved"
+	elseif action == "quest" then
+		local profile = getProfile(player)
+		if not profile then
+			return false, "Profile unavailable"
+		end
+		if profile.quests.firstTrade then
+			return false, "Quest already completed"
+		end
+		local hasTrade = #profile.tradeHistory &gt; 0
+		if not hasTrade then
+			return false, "Complete one trade first"
+		end
+		profile.quests.firstTrade = true
+		profile.cash += 5_000
+		saveProfile(player)
+		return true, "Quest reward received"
+	elseif action == "clan" then
+		local profile = getProfile(player)
+		if not profile then
+			return false, "Profile unavailable"
+		end
+		local clanName = args[1]
+		if type(clanName) ~= "string" or #clanName &lt; 3 or #clanName &gt; 24 then
+			return false, "Invalid clan name"
+		end
+		profile.clan = clanName
+		saveProfile(player)
+		return true, "Clan selected"
+	end
+
+	return false, "Unknown action"
+end
+</ProtectedString>
+      </Properties>
+    </Item>
+    <Item class="Script" referent="">
+      <Properties>
+        <string name="Name">LeaderboardManager</string>
+        <bool name="Enabled">true</bool>
+        <ProtectedString name="Source">local Players = game:GetService("Players")
+
+local leaderboard = Instance.new("Folder")
+leaderboard.Name = "Leaderboards"
+leaderboard.Parent = game.ReplicatedStorage
+
+local function addPlayer(player)
+	local stats = player:FindFirstChild("leaderstats")
+	if not stats then
+		stats = Instance.new("Folder")
+		stats.Name = "leaderstats"
+		stats.Parent = player
+	end
+
+	if not stats:FindFirstChild("Reputation") then
+		local reputation = Instance.new("IntValue")
+		reputation.Name = "Reputation"
+		reputation.Value = 0
+		reputation.Parent = stats
+	end
+
+	if not stats:FindFirstChild("Trades") then
+		local trades = Instance.new("IntValue")
+		trades.Name = "Trades"
+		trades.Value = 0
+		trades.Parent = stats
+	end
+end
+
+Players.PlayerAdded:Connect(addPlayer)
+for _, player in ipairs(Players:GetPlayers()) do
+	addPlayer(player)
+end
+</ProtectedString>
+      </Properties>
+    </Item>
+    <Item class="Script" referent="">
+      <Properties>
+        <string name="Name">SocialManager</string>
+        <bool name="Enabled">true</bool>
+        <ProtectedString name="Source">local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Remote = ReplicatedStorage:FindFirstChild("SocialRemote") or Instance.new("RemoteFunction")
+Remote.Name = "SocialRemote"
+Remote.Parent = ReplicatedStorage
+
+local trades = {}
+local clans = {}
+
+local function findPlayer(name)
+	for _, player in ipairs(Players:GetPlayers()) do
+		if string.lower(player.Name) == string.lower(name) then
+			return player
+		end
+	end
+end
+
+Remote.OnServerInvoke = function(player, action, ...)
+	local args = table.pack(...)
+
+	if action == "tradeOffer" then
+		local target = findPlayer(tostring(args[1]))
+		local asset = tostring(args[2])
+		local quantity = math.floor(tonumber(args[3]) or 0)
+		if not target or target == player or quantity &lt; 1 or quantity &gt; 1000 then
+			return false, "Invalid trade offer"
+		end
+		trades[target.UserId] = {
+			from = player,
+			asset = asset,
+			quantity = quantity,
+			accepted = false,
+		}
+		return true, "Offer sent"
+	end
+
+	if action == "tradeAccept" then
+		local offer = trades[player.UserId]
+		if not offer then
+			return false, "No pending offer"
+		end
+		trades[player.UserId] = nil
+		offer.accepted = true
+		return true, "Offer accepted", offer.from.Name
+	end
+
+	if action == "joinClan" then
+		local clanName = tostring(args[1])
+		if #clanName &lt; 3 or #clanName &gt; 24 then
+			return false, "Invalid clan name"
+		end
+		clans[clanName] = clans[clanName] or {}
+		clans[clanName][player.UserId] = true
+		return true, "Clan joined"
+	end
+
+	if action == "clanMembers" then
+		local clanName = tostring(args[1])
+		local count = 0
+		for _ in pairs(clans[clanName] or {}) do
+			count += 1
+		end
+		return true, count
+	end
+
+	return false, "Unknown action"
+end
+</ProtectedString>
+      </Properties>
+    </Item>
+    <Item class="Script" referent="">
+      <Properties>
+        <string name="Name">NPCManager</string>
+        <bool name="Enabled">true</bool>
+        <ProtectedString name="Source">local Players = game:GetService("Players")
+local Workspace = game:GetService("Workspace")
+
+local npcFolder = Workspace:FindFirstChild("NPCs") or Instance.new("Folder")
+npcFolder.Name = "NPCs"
+npcFolder.Parent = Workspace
+
+local routes = {
+	{ Vector3.new(-30, 4, 105), Vector3.new(30, 4, 105), Vector3.new(100, 4, 105) },
+	{ Vector3.new(-130, 4, -40), Vector3.new(-130, 4, 40), Vector3.new(-130, 4, 120) },
+	{ Vector3.new(130, 4, -100), Vector3.new(130, 4, 20), Vector3.new(130, 4, 120) },
+}
+
+local roles = {
+	"Street Vendor",
+	"Bank Teller",
+	"News Reporter",
+	"Car Dealer",
+	"Stock Analyst",
+	"Construction Worker",
+	"Taxi Driver",
+}
+
+for index, role in ipairs(roles) do
+	local route = routes[((index - 1) % #routes) + 1]
+	local npc = Instance.new("Model")
+	npc.Name = role
+	npc.Parent = npcFolder
+
+	local body = Instance.new("Part")
+	body.Name = "HumanoidRootPart"
+	body.Anchored = false
+	body.Size = Vector3.new(2, 5, 1)
+	body.Position = route[1]
+	body.BrickColor = BrickColor.new(index % 2 == 0 and "Institutional white" or "Reddish brown")
+	body.Parent = npc
+
+	local humanoid = Instance.new("Humanoid")
+	humanoid.WalkSpeed = 5
+	humanoid.Parent = npc
+
+	local root = body
+	task.spawn(function()
+		while npc.Parent do
+			for _, point in ipairs(route) do
+				humanoid:MoveTo(point)
+				humanoid.MoveToFinished:Wait()
+				task.wait(1 + (index % 3))
+			end
+		end
+	end)
+end
+</ProtectedString>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="StarterPlayer" referent="RBX_STARTERPLAYER">
+    <Item class="StarterPlayerScripts" referent="RBX_STARTERSCRIPTS">
+      <Item class="LocalScript" referent="">
+        <Properties>
+          <string name="Name">GameUI</string>
+          <bool name="Enabled">true</bool>
+          <ProtectedString name="Source">local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Config = require(ReplicatedStorage:WaitForChild("Modules"):WaitForChild("MarketConfig"))
+local remote = ReplicatedStorage:WaitForChild("EconomyRemote")
+
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "WealthFrontierUI"
+gui.ResetOnSpawn = false
+gui.Parent = playerGui
+
+local top = Instance.new("Frame")
+top.Name = "TopBar"
+top.Size = UDim2.new(1, 0, 0, 52)
+top.BackgroundColor3 = Color3.fromRGB(11, 15, 24)
+top.BorderSizePixel = 0
+top.Parent = gui
+
+local cashLabel = Instance.new("TextLabel")
+cashLabel.Name = "Cash"
+cashLabel.Size = UDim2.new(0, 260, 1, 0)
+cashLabel.Position = UDim2.new(0, 16, 0, 0)
+cashLabel.BackgroundTransparency = 1
+cashLabel.Font = Enum.Font.GothamBold
+cashLabel.TextColor3 = Color3.fromRGB(232, 240, 255)
+cashLabel.TextXAlignment = Enum.TextXAlignment.Left
+cashLabel.Parent = top
+
+local worthLabel = cashLabel:Clone()
+worthLabel.Name = "NetWorth"
+worthLabel.Position = UDim2.new(0, 280, 0, 0)
+worthLabel.Parent = top
+
+local tradePanel = Instance.new("Frame")
+tradePanel.Name = "TradePanel"
+tradePanel.Size = UDim2.new(0, 340, 0, 430)
+tradePanel.Position = UDim2.new(0, 18, 0, 70)
+tradePanel.BackgroundColor3 = Color3.fromRGB(20, 27, 43)
+tradePanel.BorderSizePixel = 0
+tradePanel.Parent = gui
+
+local title = Instance.new("TextLabel")
+title.Size = UDim2.new(1, -24, 0, 44)
+title.Position = UDim2.new(0, 12, 0, 6)
+title.BackgroundTransparency = 1
+title.Text = "MARKET TERMINAL"
+title.Font = Enum.Font.GothamBold
+title.TextSize = 18
+title.TextColor3 = Color3.fromRGB(110, 224, 180)
+title.TextXAlignment = Enum.TextXAlignment.Left
+title.Parent = tradePanel
+
+local watchlist = Instance.new("TextLabel")
+watchlist.Name = "Watchlist"
+watchlist.Size = UDim2.new(1, -24, 0, 150)
+watchlist.Position = UDim2.new(0, 12, 0, 52)
+watchlist.BackgroundTransparency = 1
+watchlist.Font = Enum.Font.Code
+watchlist.TextSize = 13
+watchlist.TextColor3 = Color3.fromRGB(219, 227, 240)
+watchlist.TextXAlignment = Enum.TextXAlignment.Left
+watchlist.TextYAlignment = Enum.TextYAlignment.Top
+watchlist.Parent = tradePanel
+
+local symbolBox = Instance.new("TextBox")
+symbolBox.Name = "Symbol"
+symbolBox.PlaceholderText = "NEO"
+symbolBox.Text = "NEO"
+symbolBox.Size = UDim2.new(0, 86, 0, 38)
+symbolBox.Position = UDim2.new(0, 12, 0, 220)
+symbolBox.BackgroundColor3 = Color3.fromRGB(38, 48, 68)
+symbolBox.TextColor3 = Color3.new(1, 1, 1)
+symbolBox.Font = Enum.Font.Gotham
+symbolBox.Parent = tradePanel
+
+local quantityBox = symbolBox:Clone()
+quantityBox.Name = "Quantity"
+quantityBox.PlaceholderText = "Quantity"
+quantityBox.Text = "1"
+quantityBox.Position = UDim2.new(0, 106, 0, 220)
+quantityBox.Parent = tradePanel
+
+local function createButton(name, text, x, y, color)
+	local button = Instance.new("TextButton")
+	button.Name = name
+	button.Text = text
+	button.Size = UDim2.new(0, 150, 0, 44)
+	button.Position = UDim2.new(0, x, 0, y)
+	button.BackgroundColor3 = color
+	button.BorderSizePixel = 0
+	button.Font = Enum.Font.GothamBold
+	button.TextColor3 = Color3.new(1, 1, 1)
+	button.AutoButtonColor = true
+	button.Parent = tradePanel
+	return button
+end
+
+local buyButton = createButton("Buy", "BUY", 12, 272, Color3.fromRGB(24, 142, 103))
+local sellButton = createButton("Sell", "SELL", 174, 272, Color3.fromRGB(160, 61, 61))
+local questButton = createButton("Quest", "CLAIM FIRST TRADE", 12, 326, Color3.fromRGB(54, 92, 160))
+
+local status = Instance.new("TextLabel")
+status.Name = "Status"
+status.Size = UDim2.new(1, -24, 0, 48)
+status.Position = UDim2.new(0, 12, 0, 378)
+status.BackgroundTransparency = 1
+status.Text = "Server status: offline until first snapshot"
+status.Font = Enum.Font.Gotham
+status.TextSize = 12
+status.TextWrapped = true
+status.TextColor3 = Color3.fromRGB(175, 188, 209)
+status.Parent = tradePanel
+
+local snapshot
+local function refresh()
+	snapshot = remote:InvokeServer("snapshot")
+	if not snapshot then
+		status.Text = "Unable to load the server profile"
+		return
+	end
+
+	cashLabel.Text = ("CREDITS  %s"):format(string.format("%d", snapshot.cash))
+	worthLabel.Text = ("NET WORTH  %s"):format(string.format("%d", snapshot.netWorth))
+
+	local rows = {}
+	for symbol, asset in pairs(Config.Assets) do
+		local price = snapshot.prices[symbol] or asset.basePrice
+		local held = snapshot.holdings[symbol] or 0
+		table.insert(rows, string.format("%-4s  %8d  OWN %d", symbol, math.floor(price), held))
+	end
+	table.sort(rows)
+	watchlist.Text = table.concat(rows, "\n")
+	status.Text = "Live server snapshot"
+end
+
+buyButton.Activated:Connect(function()
+	local ok, message = remote:InvokeServer("trade", string.upper(symbolBox.Text), tonumber(quantityBox.Text), false)
+	status.Text = message or tostring(ok)
+	refresh()
+end)
+
+sellButton.Activated:Connect(function()
+	local ok, message = remote:InvokeServer("trade", string.upper(symbolBox.Text), tonumber(quantityBox.Text), true)
+	status.Text = message or tostring(ok)
+	refresh()
+end)
+
+questButton.Activated:Connect(function()
+	local ok, message = remote:InvokeServer("quest")
+	status.Text = message or tostring(ok)
+	refresh()
+end)
+
+task.spawn(function()
+	while true do
+		refresh()
+		task.wait(5)
+	end
+end)
+</ProtectedString>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+</roblox>
