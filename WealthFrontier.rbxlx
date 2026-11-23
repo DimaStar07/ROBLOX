@@ -1987,9 +1987,10 @@
           <ProtectedString name="Source">local MarketConfig = {}
 
 MarketConfig.CashName = "Credits"
-MarketConfig.StartingCash = 25_000
+MarketConfig.StartingCash = 100_000
 MarketConfig.TradeCommission = 0.0025
 MarketConfig.CashoutCommission = 0.05
+MarketConfig.ProfitTax = 0.15
 MarketConfig.OfflineDividendCapDays = 7
 MarketConfig.MaxOrdersPerMinute = 12
 MarketConfig.MaxCasinoLossPerDay = 2_000
@@ -2003,6 +2004,10 @@ MarketConfig.Assets = {
 	MED = { name = "Nova Health", sector = "Healthcare", basePrice = 145, volatility = 0.016, dividendRate = 0.0007 },
 	FOOD = { name = "Green Fork", sector = "Consumer", basePrice = 54, volatility = 0.02, dividendRate = 0.0008 },
 	BIT = { name = "Bit Harbor", sector = "Crypto", basePrice = 305, volatility = 0.045, dividendRate = 0.0002 },
+	TECH = { name = "Nova Index", sector = "Technology Index", basePrice = 188, volatility = 0.013, dividendRate = 0.0008 },
+	OIL = { name = "North Oil", sector = "Commodity", basePrice = 96, volatility = 0.028, dividendRate = 0.0007 },
+	BOND = { name = "Crown Bond", sector = "Bond", basePrice = 100, volatility = 0.004, dividendRate = 0.0012 },
+	URBN = { name = "Urban Fund", sector = "Real Estate Index", basePrice = 174, volatility = 0.011, dividendRate = 0.001 },
 }
 
 MarketConfig.Outfits = {
@@ -2110,6 +2115,12 @@ local defaultProfile = function()
 	return {
 		cash = Config.StartingCash,
 		holdings = holdings,
+		costBasis = {},
+		openOrders = {},
+		orderCount = 0,
+		orderWindow = { start = os.time(), count = 0 },
+		realizedProfit = 0,
+		tradingProfit = 0,
 		outfit = "street_basic",
 		car = "old_sedan",
 		property = "old_room",
@@ -2144,6 +2155,12 @@ local function sanitizeProfile(profile)
 	end
 	clean.cash = math.clamp(tonumber(clean.cash) or Config.StartingCash, 0, 1e12)
 	clean.holdings = clean.holdings or {}
+	clean.costBasis = clean.costBasis or {}
+	clean.openOrders = clean.openOrders or {}
+	clean.orderCount = tonumber(clean.orderCount) or 0
+	clean.realizedProfit = tonumber(clean.realizedProfit) or 0
+	clean.tradingProfit = tonumber(clean.tradingProfit) or 0
+	clean.orderWindow = clean.orderWindow or { start = os.time(), count = 0 }
 	clean.ownedOutfits = clean.ownedOutfits or { street_basic = true }
 	clean.ownedCars = clean.ownedCars or { old_sedan = true }
 	clean.ownedProperties = clean.ownedProperties or { old_room = true }
@@ -2233,10 +2250,40 @@ task.spawn(function()
 			local change = (math.random() * 2 - 1) * asset.volatility
 			local nextPrice = marketPrices[symbol] * (1 + change)
 			marketPrices[symbol] = math.max(1, math.floor(nextPrice * 100) / 100)
+			table.insert(candles[symbol], 1, {
+				t = os.time(),
+				o = marketPrices[symbol] / (1 + change),
+				h = marketPrices[symbol] * (1 + math.abs(change)),
+				l = marketPrices[symbol] * (1 - math.abs(change)),
+				c = marketPrices[symbol],
+				v = math.floor(math.random() * 1000 + 100),
+			})
+			table.remove(candles[symbol], 121)
 		end
 		for _, player in ipairs(Players:GetPlayers()) do
 			local profile = profiles[player.UserId]
 			if profile then
+				for orderId, order in pairs(profile.openOrders) do
+					local price = marketPrices[order.symbol]
+					local execute = false
+					if order.type == "limit" then
+						execute = order.sell and price &gt;= order.limitPrice or (not order.sell and price &lt;= order.limitPrice)
+					elseif order.type == "stop" then
+						execute = order.sell and price &lt;= order.stopPrice or (not order.sell and price &gt;= order.stopPrice)
+					elseif order.type == "stopLimit" then
+						if order.triggered then
+							execute = order.sell and price &gt;= order.limitPrice or (not order.sell and price &lt;= order.limitPrice)
+						elseif order.sell and price &lt;= order.stopPrice or (not order.sell and price &gt;= order.stopPrice) then
+							order.triggered = true
+						end
+					end
+					if execute then
+						local ok = trade(player, order.symbol, order.quantity, order.sell)
+						if ok then
+							profile.openOrders[orderId] = nil
+						end
+					end
+				end
 				local leaderstats = player:FindFirstChild("leaderstats")
 				if leaderstats then
 					leaderstats.Credits.Value = profile.cash
@@ -2280,6 +2327,14 @@ local function trade(player, symbol, quantity, sell)
 	if quantity &lt; 1 or quantity &gt; 100_000 then
 		return false, "Invalid quantity"
 	end
+	local now = os.time()
+	if now - (profile.orderWindow.start or now) &gt;= 60 then
+		profile.orderWindow = { start = now, count = 0 }
+	end
+	if (profile.orderWindow.count or 0) &gt;= Config.MaxOrdersPerMinute then
+		return false, "Order speed limit reached"
+	end
+	profile.orderWindow.count = (profile.orderWindow.count or 0) + 1
 
 	local price = marketPrices[symbol]
 	local cost = math.floor(price * quantity * (1 + Config.TradeCommission))
@@ -2290,12 +2345,25 @@ local function trade(player, symbol, quantity, sell)
 		end
 		profile.holdings[symbol] -= quantity
 		local proceeds = math.floor(price * quantity * (1 - Config.TradeCommission))
+		local basis = profile.costBasis[symbol] or price
+		local realized = math.floor((price - basis) * quantity)
+		local tax = realized &gt; 0 and math.floor(realized * Config.ProfitTax) or 0
+		realized -= tax
+		profile.realizedProfit += realized
+		profile.tradingProfit += realized
+		profile.cash -= tax
 		profile.cash += proceeds
 	else
 		if profile.cash &lt; cost then
 			return false, "Not enough credits"
 		end
 		profile.cash -= cost
+		local held = profile.holdings[symbol] or 0
+		local oldBasis = profile.costBasis[symbol] or price
+		local newQuantity = held + quantity
+		profile.costBasis[symbol] = held &gt; 0
+			and math.floor((oldBasis * held + price * quantity) / newQuantity)
+			or price
 		profile.holdings[symbol] = (profile.holdings[symbol] or 0) + quantity
 	end
 
@@ -2362,6 +2430,60 @@ local function purchase(player, category, id)
 	return false, "Catalog item missing"
 end
 
+local function placeOrder(player, orderId, symbol, quantity, sell, orderType, limitPrice, stopPrice)
+	local profile = getProfile(player)
+	local asset = Config.Assets[symbol]
+	if not profile or not asset then
+		return false, "Invalid asset"
+	end
+	if type(orderId) ~= "string" or #orderId &lt; 8 or #orderId &gt; 64 then
+		return false, "Invalid order ID"
+	end
+	if profile.openOrders[orderId] then
+		return true, "Duplicate order ignored"
+	end
+	quantity = math.floor(tonumber(quantity) or 0)
+	if quantity &lt; 1 or quantity &gt; 100_000 then
+		return false, "Invalid quantity"
+	end
+	if orderType ~= "limit" and orderType ~= "stop" and orderType ~= "stopLimit" then
+		orderType = "limit"
+	end
+	if orderType == "limit" or orderType == "stopLimit" then
+		limitPrice = tonumber(limitPrice)
+		if not limitPrice or limitPrice &lt; 0.01 then
+			return false, "Invalid limit price"
+		end
+	end
+	if orderType == "stop" or orderType == "stopLimit" then
+		stopPrice = tonumber(stopPrice)
+		if not stopPrice or stopPrice &lt; 0.01 then
+			return false, "Invalid stop price"
+		end
+	end
+	local now = os.time()
+	if now - (profile.orderWindow.start or now) &gt;= 60 then
+		profile.orderWindow = { start = now, count = 0 }
+	end
+	if (profile.orderWindow.count or 0) &gt;= Config.MaxOrdersPerMinute then
+		return false, "Order speed limit reached"
+	end
+	profile.orderWindow.count = (profile.orderWindow.count or 0) + 1
+	profile.openOrders[orderId] = {
+		symbol = symbol,
+		quantity = quantity,
+		sell = sell,
+		type = orderType,
+		limitPrice = limitPrice,
+		stopPrice = stopPrice,
+		triggered = false,
+		created = now,
+	}
+	profile.orderCount += 1
+	saveProfile(player)
+	return true, "Order accepted"
+end
+
 Remote.OnServerInvoke = function(player, action, ...)
 	local args = table.pack(...)
 	if action == "snapshot" then
@@ -2375,6 +2497,10 @@ Remote.OnServerInvoke = function(player, action, ...)
 			holdings = profile.holdings,
 			prices = marketPrices,
 			history = profile.tradeHistory,
+			openOrders = profile.openOrders,
+			candles = candles,
+			realizedProfit = profile.realizedProfit,
+			tradingProfit = profile.tradingProfit,
 			outfit = profile.outfit,
 			car = profile.car,
 			property = profile.property,
@@ -2382,6 +2508,17 @@ Remote.OnServerInvoke = function(player, action, ...)
 		}
 	elseif action == "trade" then
 		return trade(player, args[1], args[2], args[3] == true)
+	elseif action == "order" then
+		return placeOrder(player, args[1], args[2], args[3], args[4] == true, args[5], args[6], args[7])
+	elseif action == "cancelOrder" then
+		local profile = getProfile(player)
+		local orderId = args[1]
+		if not profile or type(orderId) ~= "string" or not profile.openOrders[orderId] then
+			return false, "Order not found"
+		end
+		profile.openOrders[orderId] = nil
+		saveProfile(player)
+		return true, "Order cancelled"
 	elseif action == "purchase" then
 		return purchase(player, args[1], args[2])
 	elseif action == "casino" then
@@ -2696,7 +2833,7 @@ worthLabel.Parent = top
 
 local tradePanel = Instance.new("Frame")
 tradePanel.Name = "TradePanel"
-tradePanel.Size = UDim2.new(0, 340, 0, 430)
+tradePanel.Size = UDim2.new(0, 340, 0, 470)
 tradePanel.Position = UDim2.new(0, 18, 0, 70)
 tradePanel.BackgroundColor3 = Color3.fromRGB(20, 27, 43)
 tradePanel.BorderSizePixel = 0
@@ -2730,7 +2867,7 @@ symbolBox.Name = "Symbol"
 symbolBox.PlaceholderText = "NEO"
 symbolBox.Text = "NEO"
 symbolBox.Size = UDim2.new(0, 86, 0, 38)
-symbolBox.Position = UDim2.new(0, 12, 0, 220)
+symbolBox.Position = UDim2.new(0, 12, 0, 258)
 symbolBox.BackgroundColor3 = Color3.fromRGB(38, 48, 68)
 symbolBox.TextColor3 = Color3.new(1, 1, 1)
 symbolBox.Font = Enum.Font.Gotham
@@ -2740,7 +2877,7 @@ local quantityBox = symbolBox:Clone()
 quantityBox.Name = "Quantity"
 quantityBox.PlaceholderText = "Quantity"
 quantityBox.Text = "1"
-quantityBox.Position = UDim2.new(0, 106, 0, 220)
+quantityBox.Position = UDim2.new(0, 106, 0, 258)
 quantityBox.Parent = tradePanel
 
 local function createButton(name, text, x, y, color)
@@ -2758,14 +2895,35 @@ local function createButton(name, text, x, y, color)
 	return button
 end
 
-local buyButton = createButton("Buy", "BUY", 12, 272, Color3.fromRGB(24, 142, 103))
-local sellButton = createButton("Sell", "SELL", 174, 272, Color3.fromRGB(160, 61, 61))
-local questButton = createButton("Quest", "CLAIM FIRST TRADE", 12, 326, Color3.fromRGB(54, 92, 160))
+local buyButton = createButton("Buy", "BUY", 12, 310, Color3.fromRGB(24, 142, 103))
+local sellButton = createButton("Sell", "SELL", 174, 310, Color3.fromRGB(160, 61, 61))
+local questButton = createButton("Quest", "CLAIM FIRST TRADE", 12, 364, Color3.fromRGB(54, 92, 160))
+
+local orderTypeBox = symbolBox:Clone()
+orderTypeBox.Name = "OrderType"
+orderTypeBox.PlaceholderText = "limit"
+orderTypeBox.Text = "market"
+orderTypeBox.Position = UDim2.new(0, 12, 0, 214)
+orderTypeBox.Size = UDim2.new(0, 100, 0, 38)
+
+local limitBox = symbolBox:Clone()
+limitBox.Name = "LimitPrice"
+limitBox.PlaceholderText = "Limit"
+limitBox.Text = ""
+limitBox.Position = UDim2.new(0, 120, 0, 214)
+limitBox.Size = UDim2.new(0, 100, 0, 38)
+
+local stopBox = symbolBox:Clone()
+stopBox.Name = "StopPrice"
+stopBox.PlaceholderText = "Stop"
+stopBox.Text = ""
+stopBox.Position = UDim2.new(0, 228, 0, 214)
+stopBox.Size = UDim2.new(0, 100, 0, 38)
 
 local status = Instance.new("TextLabel")
 status.Name = "Status"
 status.Size = UDim2.new(1, -24, 0, 48)
-status.Position = UDim2.new(0, 12, 0, 378)
+status.Position = UDim2.new(0, 12, 0, 414)
 status.BackgroundTransparency = 1
 status.Text = "Server status: offline until first snapshot"
 status.Font = Enum.Font.Gotham
@@ -2797,13 +2955,29 @@ local function refresh()
 end
 
 buyButton.Activated:Connect(function()
-	local ok, message = remote:InvokeServer("trade", string.upper(symbolBox.Text), tonumber(quantityBox.Text), false)
+	local symbol = string.upper(symbolBox.Text)
+	local quantity = tonumber(quantityBox.Text)
+	local orderType = string.lower(orderTypeBox.Text)
+	local ok, message
+	if orderType == "market" or orderType == "" then
+		ok, message = remote:InvokeServer("trade", symbol, quantity, false)
+	else
+		ok, message = remote:InvokeServer("order", player.UserId .. "-" .. os.time() .. "-" .. math.random(100000,999999), symbol, quantity, false, orderType, tonumber(limitBox.Text), tonumber(stopBox.Text))
+	end
 	status.Text = message or tostring(ok)
 	refresh()
 end)
 
 sellButton.Activated:Connect(function()
-	local ok, message = remote:InvokeServer("trade", string.upper(symbolBox.Text), tonumber(quantityBox.Text), true)
+	local symbol = string.upper(symbolBox.Text)
+	local quantity = tonumber(quantityBox.Text)
+	local orderType = string.lower(orderTypeBox.Text)
+	local ok, message
+	if orderType == "market" or orderType == "" then
+		ok, message = remote:InvokeServer("trade", symbol, quantity, true)
+	else
+		ok, message = remote:InvokeServer("order", player.UserId .. "-" .. os.time() .. "-" .. math.random(100000,999999), symbol, quantity, true, orderType, tonumber(limitBox.Text), tonumber(stopBox.Text))
+	end
 	status.Text = message or tostring(ok)
 	refresh()
 end)
