@@ -35,8 +35,30 @@
         <float name="Transparency">0</float>
         <int name="BrickColor">194</int>
         <Vector3 name="Size">&lt;X&gt;12&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;12&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;5&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
         <bool name="Enabled">true</bool>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">RuntimeTestGround</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;500&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;500&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;-2&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1012</int>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="">
+      <Properties>
+        <string name="Name">CentralLandmark</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <float name="Transparency">0</float>
+        <Vector3 name="Size">&lt;X&gt;40&lt;/X&gt;&lt;Y&gt;60&lt;/Y&gt;&lt;Z&gt;40&lt;/Z&gt;</Vector3>
+        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;30&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <int name="BrickColor">1009</int>
       </Properties>
     </Item>
     <Item class="Part" referent="">
@@ -677,6 +699,43 @@ local DataStoreService = game:GetService("DataStoreService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 
+-- Runtime bootstrap is intentionally duplicate-safe: if Studio import loses
+-- static parts, a server Script creates the essential playable ground before
+-- the first client simulation begins.
+do
+	local world = workspace
+	if not world:FindFirstChild("RuntimeTestGround") then
+		local ground = Instance.new("Part")
+		ground.Name = "RuntimeTestGround"
+		ground.Anchored = true
+		ground.Size = Vector3.new(500, 4, 500)
+		ground.Position = Vector3.new(0, -2, 0)
+		ground.BrickColor = BrickColor.new("Medium stone grey")
+		ground.Parent = world
+
+		local spawn = Instance.new("SpawnLocation")
+		spawn.Name = "WealthFrontierSpawn"
+		spawn.Anchored = true
+		spawn.Neutral = true
+		spawn.Enabled = true
+		spawn.Size = Vector3.new(12, 1, 12)
+		spawn.Position = Vector3.new(0, 2, 0)
+		spawn.BrickColor = BrickColor.new("Lily white")
+		spawn.Parent = world
+	end
+
+	local landmark = world:FindFirstChild("CentralLandmark")
+	if not landmark then
+		local part = Instance.new("Part")
+		part.Name = "CentralLandmark"
+		part.Anchored = true
+		part.Size = Vector3.new(40, 60, 40)
+		part.Position = Vector3.new(0, 30, 0)
+		part.BrickColor = BrickColor.new("Bright yellow")
+		part.Parent = world
+	end
+end
+
 local Config = require(ReplicatedStorage.Modules.MarketConfig)
 local profileStore = DataStoreService:GetDataStore("WealthFrontierProfilesV1")
 local leaderboardStore = DataStoreService:GetOrderedDataStore("WealthFrontierNetWorthV1")
@@ -1235,11 +1294,31 @@ end
           <bool name="Enabled">true</bool>
           <ProtectedString name="Source">local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Workspace = game:GetService("Workspace")
+local Lighting = game:GetService("Lighting")
+local UserInputService = game:GetService("UserInputService")
 local Config = require(ReplicatedStorage:WaitForChild("Modules"):WaitForChild("MarketConfig"))
 local remote = ReplicatedStorage:WaitForChild("EconomyRemote")
 
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
+
+local function placeCameraOnPlayer()
+	local character = player.Character or player.CharacterAdded:Wait()
+	local root = character:WaitForChild("HumanoidRootPart", 10)
+	if root then
+		root.CFrame = CFrame.new(0, 8, 0)
+		local camera = Workspace.CurrentCamera
+		camera.CameraSubject = character:WaitForChild("Humanoid", 10)
+		camera.CameraType = Enum.CameraType.Custom
+		camera.CFrame = CFrame.new(Vector3.new(18, 14, 28), root.Position)
+	end
+end
+
+player.CharacterAdded:Connect(function(character)
+	task.defer(placeCameraOnPlayer)
+end)
+task.spawn(placeCameraOnPlayer)
 
 local gui = Instance.new("ScreenGui")
 gui.Name = "WealthFrontierUI"
