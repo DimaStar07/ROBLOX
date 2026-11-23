@@ -1,625 +1,1973 @@
 <?xml version='1.0' encoding='utf-8'?>
-<roblox version="4">
-  <Item class="Workspace" referent="RBX_WORKSPACE">
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+  <External>null</External>
+  <External>nil</External>
+  <Item class="Workspace" referent="RBX751E4A25EBA94DDDA87A2B121C6F916D">
     <Properties>
-      <string name="Name">WealthFrontier</string>
+      <bool name="AllowThirdPartySales">false</bool>
+      <string name="Name">Workspace</string>
+      <float name="Gravity">196.199997</float>
+      <BinaryString name="Tags" />
     </Properties>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXA2BE5876E33D426D911A5F13FCE8A414">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>-1</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">true</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">Ground</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;400&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;400&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;-1&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1012</int>
+        <Vector3 name="size">
+          <X>400</X>
+          <Y>2</Y>
+          <Z>400</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4284702562</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXC834991C84BD4FE793711E646F34D6E9">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>-3</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">true</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">GuaranteedBaseplate</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;420&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;420&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;-3&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1012</int>
+        <Vector3 name="size">
+          <X>420</X>
+          <Y>4</Y>
+          <Z>420</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4284702562</Color3uint8>
       </Properties>
     </Item>
-    <Item class="SpawnLocation" referent="">
+    <Item class="SpawnLocation" referent="RBX1D6370D89EE1427EB7D50F1BD5A5B0EE">
       <Properties>
-        <string name="Name">WealthFrontierSpawn</string>
+        <BinaryString name="AttributesSerialize" />
         <bool name="Anchored">true</bool>
+        <bool name="AllowTeamChangeOnTouch">false</bool>
         <bool name="CanCollide">true</bool>
-        <bool name="Neutral">true</bool>
-        <float name="Transparency">0</float>
-        <int name="BrickColor">194</int>
-        <Vector3 name="Size">&lt;X&gt;12&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;12&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;5&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
+        <float name="Duration">10</float>
         <bool name="Enabled">true</bool>
+        <token name="Material">256</token>
+        <bool name="Neutral">true</bool>
+        <string name="Name">WealthFrontierSpawn</string>
+        <float name="Transparency">0</float>
+        <Vector3 name="size">
+          <X>12</X>
+          <Y>1</Y>
+          <Z>12</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4286926555</Color3uint8>
+        <BrickColor name="TeamColor">194</BrickColor>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXC46CB42EC5B34F429E27CC4F8F3486C0">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>-2</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">true</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">RuntimeTestGround</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;500&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;500&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;-2&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1012</int>
+        <Vector3 name="size">
+          <X>500</X>
+          <Y>4</Y>
+          <Z>500</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4284702562</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX8540B106297B4BEC9053B7769F3E6381">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>30</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">CentralLandmark</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;40&lt;/X&gt;&lt;Y&gt;60&lt;/Y&gt;&lt;Z&gt;40&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;30&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>40</X>
+          <Y>60</Y>
+          <Z>40</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX2A5F1F3EA77E4C4F9B0A3275317F999A">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0.25</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">North-South Main Road</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;26&lt;/X&gt;&lt;Y&gt;0.5&lt;/Y&gt;&lt;Z&gt;400&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;0.25&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">199</int>
+        <Vector3 name="size">
+          <X>26</X>
+          <Y>0.5</Y>
+          <Z>400</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4280641413</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXE9DC32C5C2E8430E91403F94DC74D08C">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0.25</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">West-East Main Road</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;400&lt;/X&gt;&lt;Y&gt;0.5&lt;/Y&gt;&lt;Z&gt;26&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;0.25&lt;/Y&gt;&lt;Z&gt;0&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">199</int>
+        <Vector3 name="size">
+          <X>400</X>
+          <Y>0.5</Y>
+          <Z>26</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4280641413</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX665E07C933A44CFC95F9D45EDAAE66C5">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-150</X>
+          <Y>0.5</Y>
+          <Z>-145</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">OldHouseBase</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;40&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;36&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;0.5&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">327</int>
+        <Vector3 name="size">
+          <X>40</X>
+          <Y>1</Y>
+          <Z>36</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4282000681</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX8283866C7BE643FFAABBF6AEA08DDCAA">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-150</X>
+          <Y>9</Y>
+          <Z>-162</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">OldHouseWalls</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;40&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;2&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;-162&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">217</int>
+        <Vector3 name="size">
+          <X>40</X>
+          <Y>18</Y>
+          <Z>2</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4283982121</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX20CD2E7589D24884A0370DA0A64A4357">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-150</X>
+          <Y>9</Y>
+          <Z>-128</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">OldHouseBackWall</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;40&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;2&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;-128&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">217</int>
+        <Vector3 name="size">
+          <X>40</X>
+          <Y>18</Y>
+          <Z>2</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4283982121</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX53EF2F5616DB4D7A99BF8C2EFFA54058">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-170</X>
+          <Y>9</Y>
+          <Z>-145</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">OldHouseSideA</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;2&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;32&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-170&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">217</int>
+        <Vector3 name="size">
+          <X>2</X>
+          <Y>18</Y>
+          <Z>32</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4283982121</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXD541915AE8EC4978B635EC43C549165C">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-130</X>
+          <Y>9</Y>
+          <Z>-145</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">OldHouseSideB</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;2&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;32&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-130&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">217</int>
+        <Vector3 name="size">
+          <X>2</X>
+          <Y>18</Y>
+          <Z>32</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4283982121</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX70F006B053C64E08A6DB3EDCA3176EE6">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-150</X>
+          <Y>19</Y>
+          <Z>-145</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">OldHouseRoof</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;48&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;44&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;19&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">26</int>
+        <Vector3 name="size">
+          <X>48</X>
+          <Y>2</Y>
+          <Z>44</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4280558628</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXB59C1FAFEFB54E4D916CC7922E1981DF">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-150</X>
+          <Y>6</Y>
+          <Z>-127</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">OldHouseFrontDoor</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;8&lt;/X&gt;&lt;Y&gt;12&lt;/Y&gt;&lt;Z&gt;1&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;6&lt;/Y&gt;&lt;Z&gt;-127&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">194</int>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>12</Y>
+          <Z>1</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4286926555</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXA98D08D69C324F688063B723D5170F65">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-150</X>
+          <Y>3</Y>
+          <Z>-138</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">OldComputerDesk</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;16&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;7&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;3&lt;/Y&gt;&lt;Z&gt;-138&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">199</int>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>4</Y>
+          <Z>7</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4280641413</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXF5D4F27673124488B86098B74BCDB64A">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-150</X>
+          <Y>9</Y>
+          <Z>-138</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">OldComputer</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;12&lt;/X&gt;&lt;Y&gt;8&lt;/Y&gt;&lt;Z&gt;2&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;-138&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">26</int>
+        <Vector3 name="size">
+          <X>12</X>
+          <Y>8</Y>
+          <Z>2</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4280558628</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXF3EC1AAE53B149B88BF1DCAB77A035E5">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>19</Y>
+          <Z>75</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">ExchangeBuilding</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;75&lt;/X&gt;&lt;Y&gt;38&lt;/Y&gt;&lt;Z&gt;55&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;19&lt;/Y&gt;&lt;Z&gt;75&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">199</int>
+        <Vector3 name="size">
+          <X>75</X>
+          <Y>38</Y>
+          <Z>55</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4280641413</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXDDC8E2FB3BF9477D96FE92D6A4867DA3">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>1</Y>
+          <Z>75</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">ExchangeAtrium</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;65&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;45&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;75&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1001</int>
+        <Vector3 name="size">
+          <X>65</X>
+          <Y>1</Y>
+          <Z>45</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4293914607</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX1257325CB7A14AF09459AA75163D4B9C">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>18</Y>
+          <Z>102</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">ExchangeScreen</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;45&lt;/X&gt;&lt;Y&gt;12&lt;/Y&gt;&lt;Z&gt;1&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;102&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1032</int>
+        <Vector3 name="size">
+          <X>45</X>
+          <Y>12</Y>
+          <Z>1</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4279244844</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXB3C7A459AD2B490DA2357A18B8CE9E77">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>3</Y>
+          <Z>82</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">ExchangeDesk</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;5&lt;/Y&gt;&lt;Z&gt;8&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;3&lt;/Y&gt;&lt;Z&gt;82&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">192</int>
+        <Vector3 name="size">
+          <X>28</X>
+          <Y>5</Y>
+          <Z>8</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4281216550</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX5B9E91D12EE742C5BA97DE7006473F9C">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-28</X>
+          <Y>36</Y>
+          <Z>72</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">ExchangeTowerA</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;12&lt;/X&gt;&lt;Y&gt;72&lt;/Y&gt;&lt;Z&gt;12&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-28&lt;/X&gt;&lt;Y&gt;36&lt;/Y&gt;&lt;Z&gt;72&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1032</int>
+        <Vector3 name="size">
+          <X>12</X>
+          <Y>72</Y>
+          <Z>12</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4279244844</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX1FFCDE3F93974C33901E7C1E47146B0C">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>28</X>
+          <Y>36</Y>
+          <Z>72</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">ExchangeTowerB</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;12&lt;/X&gt;&lt;Y&gt;72&lt;/Y&gt;&lt;Z&gt;12&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;36&lt;/Y&gt;&lt;Z&gt;72&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1032</int>
+        <Vector3 name="size">
+          <X>12</X>
+          <Y>72</Y>
+          <Z>12</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4279244844</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX2E3913133E5B4579A71B5B0C0146B8ED">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-100</X>
+          <Y>15</Y>
+          <Z>78</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">BankBuilding</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;58&lt;/X&gt;&lt;Y&gt;30&lt;/Y&gt;&lt;Z&gt;48&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-100&lt;/X&gt;&lt;Y&gt;15&lt;/Y&gt;&lt;Z&gt;78&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1001</int>
+        <Vector3 name="size">
+          <X>58</X>
+          <Y>30</Y>
+          <Z>48</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4293914607</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX822E8605235F41439BD97B5327F9E078">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-100</X>
+          <Y>3</Y>
+          <Z>56</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">BankDesk</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;30&lt;/X&gt;&lt;Y&gt;5&lt;/Y&gt;&lt;Z&gt;7&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-100&lt;/X&gt;&lt;Y&gt;3&lt;/Y&gt;&lt;Z&gt;56&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">194</int>
+        <Vector3 name="size">
+          <X>30</X>
+          <Y>5</Y>
+          <Z>7</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4286926555</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXABCEA6EEFFA84164895AD9CFED49D59D">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-100</X>
+          <Y>8</Y>
+          <Z>99</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">BankVault</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;18&lt;/X&gt;&lt;Y&gt;16&lt;/Y&gt;&lt;Z&gt;8&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-100&lt;/X&gt;&lt;Y&gt;8&lt;/Y&gt;&lt;Z&gt;99&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">26</int>
+        <Vector3 name="size">
+          <X>18</X>
+          <Y>16</Y>
+          <Z>8</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4280558628</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX47E35F85D37D4814AAD9F3859167AFE4">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>100</X>
+          <Y>12</Y>
+          <Z>82</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">CasinoBuilding</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;66&lt;/X&gt;&lt;Y&gt;24&lt;/Y&gt;&lt;Z&gt;50&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;100&lt;/X&gt;&lt;Y&gt;12&lt;/Y&gt;&lt;Z&gt;82&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">217</int>
+        <Vector3 name="size">
+          <X>66</X>
+          <Y>24</Y>
+          <Z>50</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4283982121</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXEFE2FF1280154D7A94192384B3430E49">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>100</X>
+          <Y>20</Y>
+          <Z>108</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">CasinoSign</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;44&lt;/X&gt;&lt;Y&gt;6&lt;/Y&gt;&lt;Z&gt;2&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;100&lt;/X&gt;&lt;Y&gt;20&lt;/Y&gt;&lt;Z&gt;108&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>44</X>
+          <Y>6</Y>
+          <Z>2</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXF3F48CE1C61840709E46FF517B5AF8A7">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>100</X>
+          <Y>2</Y>
+          <Z>82</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">CasinoTable</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;18&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;18&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;100&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;82&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">194</int>
+        <Vector3 name="size">
+          <X>18</X>
+          <Y>4</Y>
+          <Z>18</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4286926555</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX88AA196D76154D2FBD9FC0742EF2F087">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>125</X>
+          <Y>11</Y>
+          <Z>-70</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">FashionStore</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;48&lt;/X&gt;&lt;Y&gt;22&lt;/Y&gt;&lt;Z&gt;42&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;125&lt;/X&gt;&lt;Y&gt;11&lt;/Y&gt;&lt;Z&gt;-70&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>48</X>
+          <Y>22</Y>
+          <Z>42</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX96A8580C936445F6A417C1A691A24EF7">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>112</X>
+          <Y>4</Y>
+          <Z>-70</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">FashionRackA</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;8&lt;/X&gt;&lt;Y&gt;7&lt;/Y&gt;&lt;Z&gt;20&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;112&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;-70&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1032</int>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>7</Y>
+          <Z>20</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4279244844</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX681CECB3590046F3B37E6C46BB030F44">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>138</X>
+          <Y>4</Y>
+          <Z>-70</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">FashionRackB</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;8&lt;/X&gt;&lt;Y&gt;7&lt;/Y&gt;&lt;Z&gt;20&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;138&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;-70&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1032</int>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>7</Y>
+          <Z>20</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4279244844</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXE8398C9319A54D6B8EF3FE20BF626EAA">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>100</X>
+          <Y>9</Y>
+          <Z>-145</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">CarDealer</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;70&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;50&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;100&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">199</int>
+        <Vector3 name="size">
+          <X>70</X>
+          <Y>18</Y>
+          <Z>50</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4280641413</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXAED5884E431A4A1F8D42EBFB436A4D94">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>72</X>
+          <Y>2</Y>
+          <Z>-145</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">CarPlatformA</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;24&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;12&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;72&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1001</int>
+        <Vector3 name="size">
+          <X>24</X>
+          <Y>2</Y>
+          <Z>12</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4293914607</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX350D9AD382614A8F879C8123403A2EAF">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>112</X>
+          <Y>2</Y>
+          <Z>-145</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">CarPlatformB</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;24&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;12&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;112&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1001</int>
+        <Vector3 name="size">
+          <X>24</X>
+          <Y>2</Y>
+          <Z>12</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4293914607</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX3C7C13D5620B4F63B6BC0F4DA2D52EBC">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-95</X>
+          <Y>14.0</Y>
+          <Z>-75</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">Residence_-95_-75</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;45&lt;/X&gt;&lt;Y&gt;28&lt;/Y&gt;&lt;Z&gt;38&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-95&lt;/X&gt;&lt;Y&gt;14.0&lt;/Y&gt;&lt;Z&gt;-75&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1001</int>
+        <Vector3 name="size">
+          <X>45</X>
+          <Y>28</Y>
+          <Z>38</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4293914607</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXBBE8D1150A2D458C88E1D22523726740">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-38</X>
+          <Y>14.0</Y>
+          <Z>-75</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">Residence_-38_-75</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;45&lt;/X&gt;&lt;Y&gt;28&lt;/Y&gt;&lt;Z&gt;38&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-38&lt;/X&gt;&lt;Y&gt;14.0&lt;/Y&gt;&lt;Z&gt;-75&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1001</int>
+        <Vector3 name="size">
+          <X>45</X>
+          <Y>28</Y>
+          <Z>38</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4293914607</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX93811B06188D41199B2870F116C630F3">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>45</X>
+          <Y>14.0</Y>
+          <Z>-75</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">Residence_45_-75</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;45&lt;/X&gt;&lt;Y&gt;28&lt;/Y&gt;&lt;Z&gt;38&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;45&lt;/X&gt;&lt;Y&gt;14.0&lt;/Y&gt;&lt;Z&gt;-75&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1001</int>
+        <Vector3 name="size">
+          <X>45</X>
+          <Y>28</Y>
+          <Z>38</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4293914607</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXEF84ABA35433454DA085887EEA913AD1">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-95</X>
+          <Y>17.0</Y>
+          <Z>-160</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">Residence_-95_-160</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;55&lt;/X&gt;&lt;Y&gt;34&lt;/Y&gt;&lt;Z&gt;44&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-95&lt;/X&gt;&lt;Y&gt;17.0&lt;/Y&gt;&lt;Z&gt;-160&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1001</int>
+        <Vector3 name="size">
+          <X>55</X>
+          <Y>34</Y>
+          <Z>44</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4293914607</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXF82FD6D643984F488630E539240C2F60">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>17.0</Y>
+          <Z>-160</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">Residence_0_-160</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;55&lt;/X&gt;&lt;Y&gt;34&lt;/Y&gt;&lt;Z&gt;44&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;17.0&lt;/Y&gt;&lt;Z&gt;-160&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1001</int>
+        <Vector3 name="size">
+          <X>55</X>
+          <Y>34</Y>
+          <Z>44</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4293914607</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX21AD808784B246789260F9605A417649">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>155</X>
+          <Y>45</Y>
+          <Z>10</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">PenthouseTower</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;62&lt;/X&gt;&lt;Y&gt;90&lt;/Y&gt;&lt;Z&gt;62&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;155&lt;/X&gt;&lt;Y&gt;45&lt;/Y&gt;&lt;Z&gt;10&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1032</int>
+        <Vector3 name="size">
+          <X>62</X>
+          <Y>90</Y>
+          <Z>62</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4279244844</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX8192DA6B90074DA894190A4407F6256A">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>145</X>
+          <Y>1</Y>
+          <Z>155</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">MansionBase</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;75&lt;/X&gt;&lt;Y&gt;2&lt;/Y&gt;&lt;Z&gt;55&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;145&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;155&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1001</int>
+        <Vector3 name="size">
+          <X>75</X>
+          <Y>2</Y>
+          <Z>55</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4293914607</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX3CA9441DEA9D4D7FAFB6643AACDF6EEC">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>145</X>
+          <Y>18</Y>
+          <Z>155</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">MansionBuilding</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;58&lt;/X&gt;&lt;Y&gt;34&lt;/Y&gt;&lt;Z&gt;40&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;145&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;155&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1001</int>
+        <Vector3 name="size">
+          <X>58</X>
+          <Y>34</Y>
+          <Z>40</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4293914607</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX2CEAB54B3FF449C4B985FD2CE48C6F57">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>145</X>
+          <Y>1</Y>
+          <Z>180</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">MansionPool</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;30&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;18&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;145&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;180&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">91</int>
+        <Vector3 name="size">
+          <X>30</X>
+          <Y>1</Y>
+          <Z>18</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4280151790</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX36D5B319B44C44269232D0F6852B486B">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-50</X>
+          <Y>5</Y>
+          <Z>110</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">QuestBoard</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;12&lt;/X&gt;&lt;Y&gt;8&lt;/Y&gt;&lt;Z&gt;2&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-50&lt;/X&gt;&lt;Y&gt;5&lt;/Y&gt;&lt;Z&gt;110&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">194</int>
+        <Vector3 name="size">
+          <X>12</X>
+          <Y>8</Y>
+          <Z>2</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4286926555</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXD0F413CA592B4E97B7F979122C38E713">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-145</X>
+          <Y>9</Y>
+          <Z>135</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">CryptoMine</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;40&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;38&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-145&lt;/X&gt;&lt;Y&gt;9&lt;/Y&gt;&lt;Z&gt;135&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">199</int>
+        <Vector3 name="size">
+          <X>40</X>
+          <Y>18</Y>
+          <Z>38</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4280641413</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXEBB52233564740F0907C3D65479CE5A8">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-155</X>
+          <Y>7</Y>
+          <Z>135</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">CryptoRackA</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;8&lt;/X&gt;&lt;Y&gt;12&lt;/Y&gt;&lt;Z&gt;8&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-155&lt;/X&gt;&lt;Y&gt;7&lt;/Y&gt;&lt;Z&gt;135&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>12</Y>
+          <Z>8</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX416EC39F57DC49DD948C757AAF688E95">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-135</X>
+          <Y>7</Y>
+          <Z>135</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">CryptoRackB</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;8&lt;/X&gt;&lt;Y&gt;12&lt;/Y&gt;&lt;Z&gt;8&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-135&lt;/X&gt;&lt;Y&gt;7&lt;/Y&gt;&lt;Z&gt;135&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>12</Y>
+          <Z>8</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX063B7C044380465387B71F94D64D5CFE">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-125</X>
+          <Y>8</Y>
+          <Z>25</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">AlleyEntrance</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;8&lt;/X&gt;&lt;Y&gt;16&lt;/Y&gt;&lt;Z&gt;26&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-125&lt;/X&gt;&lt;Y&gt;8&lt;/Y&gt;&lt;Z&gt;25&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">26</int>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>16</Y>
+          <Z>26</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4280558628</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX7966F284305C43D7A20942D11182EA97">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-125</X>
+          <Y>10</Y>
+          <Z>38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">AlleySafeSign</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0</float>
-        <Vector3 name="Size">&lt;X&gt;6&lt;/X&gt;&lt;Y&gt;4&lt;/Y&gt;&lt;Z&gt;2&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-125&lt;/X&gt;&lt;Y&gt;10&lt;/Y&gt;&lt;Z&gt;38&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>6</X>
+          <Y>4</Y>
+          <Z>2</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX7ECC11D0341B4A79B2CCC53FA323DA9C">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-150</X>
+          <Y>24</Y>
+          <Z>-145</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">Marker_Old_Starter_District</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0.8</float>
-        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-150&lt;/X&gt;&lt;Y&gt;24&lt;/Y&gt;&lt;Z&gt;-145&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>28</X>
+          <Y>1</Y>
+          <Z>28</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX050417CC23C94AE28F9A77EB1D0B2502">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>24</Y>
+          <Z>75</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">Marker_Central_Exchange</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0.8</float>
-        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;0&lt;/X&gt;&lt;Y&gt;24&lt;/Y&gt;&lt;Z&gt;75&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>28</X>
+          <Y>1</Y>
+          <Z>28</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX7CDFF29DED4A45AFB15409EBA0442A53">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-100</X>
+          <Y>22</Y>
+          <Z>78</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">Marker_Bank_and_Vault</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0.8</float>
-        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-100&lt;/X&gt;&lt;Y&gt;22&lt;/Y&gt;&lt;Z&gt;78&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>28</X>
+          <Y>1</Y>
+          <Z>28</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX030B93851BF041DCBC0FF0A55FC2638B">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>100</X>
+          <Y>20</Y>
+          <Z>82</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">Marker_Casino_Quarter</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0.8</float>
-        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;100&lt;/X&gt;&lt;Y&gt;20&lt;/Y&gt;&lt;Z&gt;82&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>28</X>
+          <Y>1</Y>
+          <Z>28</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBXF75E0B1B32324F049D416DF6A0122A2A">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>125</X>
+          <Y>18</Y>
+          <Z>-100</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">Marker_Fashion_and_Car_District</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0.8</float>
-        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;125&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;-100&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>28</X>
+          <Y>1</Y>
+          <Z>28</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX9D0828EA0F7E453DA6108FB139580D40">
       <Properties>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
+        <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>145</X>
+          <Y>28</Y>
+          <Z>155</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
         <string name="Name">Marker_Luxury_District</string>
-        <bool name="Anchored">true</bool>
-        <bool name="CanCollide">true</bool>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0.8</float>
-        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;145&lt;/X&gt;&lt;Y&gt;28&lt;/Y&gt;&lt;Z&gt;155&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>28</X>
+          <Y>1</Y>
+          <Z>28</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
-    <Item class="Part" referent="">
+    <Item class="Part" referent="RBX428FFEC584524EBE893C899742B8A783">
       <Properties>
-        <string name="Name">Marker_Crypto_and_Quest_District</string>
         <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize" />
         <bool name="CanCollide">true</bool>
+        <bool name="CastShadow">true</bool>
+        <CoordinateFrame name="CFrame">
+          <X>-145</X>
+          <Y>18</Y>
+          <Z>135</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
+        <string name="Name">Marker_Crypto_and_Quest_District</string>
+        <float name="Reflectance">0</float>
         <float name="Transparency">0.8</float>
-        <Vector3 name="Size">&lt;X&gt;28&lt;/X&gt;&lt;Y&gt;1&lt;/Y&gt;&lt;Z&gt;28&lt;/Z&gt;</Vector3>
-        <CoordinateFrame name="CFrame">&lt;X&gt;-145&lt;/X&gt;&lt;Y&gt;18&lt;/Y&gt;&lt;Z&gt;135&lt;/Z&gt;&lt;R00&gt;1&lt;/R00&gt;&lt;R01&gt;0&lt;/R01&gt;&lt;R02&gt;0&lt;/R02&gt;&lt;R10&gt;0&lt;/R10&gt;&lt;R11&gt;1&lt;/R11&gt;&lt;R12&gt;0&lt;/R12&gt;&lt;R20&gt;0&lt;/R20&gt;&lt;R21&gt;0&lt;/R21&gt;&lt;R22&gt;1&lt;/R22&gt;</CoordinateFrame>
-        <int name="BrickColor">1009</int>
+        <Vector3 name="size">
+          <X>28</X>
+          <Y>1</Y>
+          <Z>28</Z>
+        </Vector3>
+        <BinaryString name="Tags" />
+        <Color3uint8 name="Color3uint8">4294967040</Color3uint8>
       </Properties>
     </Item>
     <Item class="Folder" referent="RBX_NPCS">
@@ -633,7 +1981,7 @@
       <Properties>
         <string name="Name">Modules</string>
       </Properties>
-      <Item class="ModuleScript" referent="">
+      <Item class="ModuleScript" referent="RBXF0E4011F92624F268E4D99B2CC9C2F5B">
         <Properties>
           <string name="Name">MarketConfig</string>
           <ProtectedString name="Source">local MarketConfig = {}
@@ -690,7 +2038,7 @@ return table.freeze(MarketConfig)
     </Properties>
   </Item>
   <Item class="ServerScriptService" referent="RBX_SSS">
-    <Item class="Script" referent="">
+    <Item class="Script" referent="RBX1B32C1C81DEC4BCA8B7CFA98D86CCB9D">
       <Properties>
         <string name="Name">EconomyManager</string>
         <bool name="Enabled">true</bool>
@@ -719,7 +2067,7 @@ do
 		spawn.Neutral = true
 		spawn.Enabled = true
 		spawn.Size = Vector3.new(12, 1, 12)
-		spawn.Position = Vector3.new(0, 2, 0)
+		spawn.Position = Vector3.new(0, 1, 0)
 		spawn.BrickColor = BrickColor.new("Lily white")
 		spawn.Parent = world
 	end
@@ -1111,7 +2459,7 @@ end
 </ProtectedString>
       </Properties>
     </Item>
-    <Item class="Script" referent="">
+    <Item class="Script" referent="RBX981831D4365848C895663C3B82A336D6">
       <Properties>
         <string name="Name">LeaderboardManager</string>
         <bool name="Enabled">true</bool>
@@ -1151,7 +2499,7 @@ end
 </ProtectedString>
       </Properties>
     </Item>
-    <Item class="Script" referent="">
+    <Item class="Script" referent="RBX5E072C3D40C64DDD93DCF85F16845749">
       <Properties>
         <string name="Name">SocialManager</string>
         <bool name="Enabled">true</bool>
@@ -1226,7 +2574,7 @@ end
 </ProtectedString>
       </Properties>
     </Item>
-    <Item class="Script" referent="">
+    <Item class="Script" referent="RBX1E901FE3DAD24FFB8D7822399E788B66">
       <Properties>
         <string name="Name">NPCManager</string>
         <bool name="Enabled">true</bool>
@@ -1288,7 +2636,7 @@ end
   </Item>
   <Item class="StarterPlayer" referent="RBX_STARTERPLAYER">
     <Item class="StarterPlayerScripts" referent="RBX_STARTERSCRIPTS">
-      <Item class="LocalScript" referent="">
+      <Item class="LocalScript" referent="RBX5CB4EC246EC04CAD9186CA502D73B903">
         <Properties>
           <string name="Name">GameUI</string>
           <bool name="Enabled">true</bool>
@@ -1307,7 +2655,6 @@ local function placeCameraOnPlayer()
 	local character = player.Character or player.CharacterAdded:Wait()
 	local root = character:WaitForChild("HumanoidRootPart", 10)
 	if root then
-		root.CFrame = CFrame.new(0, 8, 0)
 		local camera = Workspace.CurrentCamera
 		camera.CameraSubject = character:WaitForChild("Humanoid", 10)
 		camera.CameraType = Enum.CameraType.Custom
